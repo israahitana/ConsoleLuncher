@@ -4,7 +4,7 @@ pipeline {
     stage('Checkout Codebase') {
       steps {
         deleteDir()
-        git url: 'https://github.com/TON_USER_GITHUB/ConsoleLuncher.git', branch: 'master'
+        git url: 'https://github.com/israahitana/ConsoleLuncher.git', branch: 'master'
       }
     }
     stage('Build') {
